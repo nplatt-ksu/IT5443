@@ -49,13 +49,11 @@ evaluateBtn.addEventListener('click', function () {
     grade2 = document.getElementById('ug-course-2').value;
     grade3 = document.getElementById('ug-course-3').value;
     grade4 = document.getElementById('ug-course-4').value;
-    grade5 = document.getElementById('ug-course-5').value;
   } else {
     grade1 = document.getElementById('grad-course-1').value;
     grade2 = document.getElementById('grad-course-2').value;
     grade3 = document.getElementById('grad-course-3').value;
     grade4 = document.getElementById('grad-course-4').value;
-    grade5 = document.getElementById('grad-course-5').value;
   }
 
   if (grade1 === '' || grade2 === '' || grade3 === '' || grade4 === '' || grade5 === '') {
