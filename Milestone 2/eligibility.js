@@ -56,13 +56,13 @@ evaluateBtn.addEventListener('click', function () {
     grade4 = document.getElementById('grad-course-4').value;
   }
 
-  if (grade1 === '' || grade2 === '' || grade3 === '' || grade4 === '' || grade5 === '') {
+  if (grade1 === '' || grade2 === '' || grade3 === '' || grade4 === '') {
     alert('Please select a grade for every required course.');
     return;
   }
 
-  const total = getGradePoint(grade1) + getGradePoint(grade2) + getGradePoint(grade3) + getGradePoint(grade4) + getGradePoint(grade5);
-  const average = total / 5;
+  const total = getGradePoint(grade1) + getGradePoint(grade2) + getGradePoint(grade3) + getGradePoint(grade4);
+  const average = total / 4;
 
   let threshold;
   if (status === 'undergraduate') {
