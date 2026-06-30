@@ -27,9 +27,7 @@ function getGradePoint(letter) {
     return 1.0;
   } else if (letter === 'F') {
     return 0.0;
-  } else {
-    return -1;
-  }
+   }
 }
 
 evaluateBtn.addEventListener('click', function () {
