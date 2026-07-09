@@ -6,7 +6,6 @@ form.addEventListener('submit', function (event) {
   const studentId = document.getElementById('student-id').value.trim();
   const phone = document.getElementById('phone').value.trim();
   const researchArea = document.getElementById('research-area').value;
-  const gpa = document.getElementById('gpa').value.trim();
   const skills = document.getElementById('skills').value.trim();
   const whyInterested = document.getElementById('why-interested').value.trim();
 
@@ -57,20 +56,6 @@ form.addEventListener('submit', function (event) {
 
   if (dayMon.checked === false && dayTue.checked === false && dayWed.checked === false && dayThu.checked === false && dayFri.checked === false) {
     alert('Please select at least one available day.');
-    event.preventDefault();
-    return;
-  }
-
-  if (gpa === '') {
-    alert('Please enter your GPA.');
-    event.preventDefault();
-    return;
-  }
-
-  const gpaNumber = Number(gpa);
-
-  if (isNaN(gpaNumber) || gpaNumber < 0 || gpaNumber > 4.0) {
-    alert('Please enter a valid GPA between 0.0 and 4.0.');
     event.preventDefault();
     return;
   }
