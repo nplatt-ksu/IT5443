@@ -75,7 +75,7 @@ evaluateBtn.addEventListener('click', function () {
   if (average > threshold) {
     html += '<p>Congratulations, ' + name + '! Based on your grades, you may qualify for a Summer Student Assistant position.</p>';
     html += '<p>You may continue to the application form to apply.</p>';
-    html += '<p><a href="../Milestone 3/index.html">Continue to the Application Form</a></p>';
+    html += '<p><a href="../Milestone 3/application.php">Continue to the Application Form</a></p>';
     resultDiv.className = 'result qualify';
   } else {
     html += '<p>Thank you for your interest, ' + name + '. Based on your grades, you do not currently meet the minimum requirement for this position.</p>';
