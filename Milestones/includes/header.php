@@ -11,6 +11,6 @@
     <a href="../Milestone 1/facilities.php">Facilities</a>
     <a href="../Milestone 1/resources.php">Resources</a>
     <a href="../Milestone 2/eligibility-evaluator.php">Student Eligibility Evaluator</a>
-    <a href="../Milestone 3/application.php">Research Assistant Application</a>
+    <!-- <a href="../Milestone 3/application.php">Research Assistant Application</a> -->
   </nav>
   <main>
