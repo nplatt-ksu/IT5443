@@ -61,11 +61,6 @@ include '../includes/header.php';
     </div>
 
     <div class="form-group">
-      <label for="gpa">Current GPA (0.0 - 4.0) *</label>
-      <input type="text" id="gpa" name="gpa">
-    </div>
-
-    <div class="form-group">
       <label for="skills">Relevant Skills / Coursework *</label>
       <textarea id="skills" name="skills" rows="4"></textarea>
     </div>
