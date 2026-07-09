@@ -7,7 +7,6 @@ $studentId = isset($_POST['student-id']) ? trim($_POST['student-id']) : '';
 $phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
 $standing = isset($_POST['standing']) ? $_POST['standing'] : '';
 $researchArea = isset($_POST['research-area']) ? $_POST['research-area'] : '';
-$gpa = isset($_POST['gpa']) ? trim($_POST['gpa']) : '';
 $skills = isset($_POST['skills']) ? trim($_POST['skills']) : '';
 $whyInterested = isset($_POST['why-interested']) ? trim($_POST['why-interested']) : '';
 $days = isset($_POST['days']) ? $_POST['days'] : array();
@@ -38,10 +37,6 @@ if ($researchArea === '') {
 
 if (count($days) === 0) {
   $errors[] = 'Please select at least one available day.';
-}
-
-if ($gpa === '' || !is_numeric($gpa) || $gpa < 0 || $gpa > 4.0) {
-  $errors[] = 'Please enter a valid GPA between 0.0 and 4.0.';
 }
 
 if ($skills === '') {
@@ -101,10 +96,6 @@ include '../includes/header.php';
     <tr>
       <td>Days Available</td>
       <td><?php echo htmlspecialchars(implode(', ', $days)); ?></td>
-    </tr>
-    <tr>
-      <td>Current GPA</td>
-      <td><?php echo htmlspecialchars($gpa); ?></td>
     </tr>
     <tr>
       <td>Relevant Skills / Coursework</td>
