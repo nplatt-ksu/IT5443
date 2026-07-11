@@ -59,7 +59,7 @@ include '../includes/header.php';
       <li><?php echo htmlspecialchars($error); ?></li>
     <?php } ?>
   </ul>
-  <p><a href="research-assistant-application.php">Back to Application Form</a></p>
+  <p><a href="application.php">Back to Application Form</a></p>
 <?php } else { ?>
   <h1>Application Submitted Successfully</h1>
   <p class="description">Thank you, <?php echo htmlspecialchars($fullName); ?>. Your Faculty Research Assistant Application has been received. Below is a summary of the information you submitted.</p>
