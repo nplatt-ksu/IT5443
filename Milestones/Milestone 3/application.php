@@ -32,7 +32,7 @@ include '../includes/header.php';
     </div>
 
     <div class="form-group">
-      <label>Class Standing *</label>
+      <label for="standing">Class Standing *</label>
       <label class="radio-label"><input type="radio" id="standing-undergrad" name="standing" value="Undergraduate"> Undergraduate</label>
       <label class="radio-label"><input type="radio" id="standing-grad" name="standing" value="Graduate"> Graduate</label>
     </div>
@@ -52,7 +52,7 @@ include '../includes/header.php';
     </div>
 
     <div class="form-group">
-      <label>Days Available *</label>
+      <label for="days">Days Available *</label>
       <label class="checkbox-label"><input type="checkbox" id="day-mon" name="days[]" value="Monday"> Monday</label>
       <label class="checkbox-label"><input type="checkbox" id="day-tue" name="days[]" value="Tuesday"> Tuesday</label>
       <label class="checkbox-label"><input type="checkbox" id="day-wed" name="days[]" value="Wednesday"> Wednesday</label>
