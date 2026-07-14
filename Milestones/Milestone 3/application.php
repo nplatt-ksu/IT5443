@@ -31,11 +31,11 @@ include '../includes/header.php';
       <input type="text" id="phone" name="phone">
     </div>
 
-    <div class="form-group">
-      <label for="standing">Class Standing *</label>
+    <fieldset class="form-group">
+      <legend>Class Standing *</legend>
       <label class="radio-label"><input type="radio" id="standing-undergrad" name="standing" value="Undergraduate"> Undergraduate</label>
       <label class="radio-label"><input type="radio" id="standing-grad" name="standing" value="Graduate"> Graduate</label>
-    </div>
+    </fieldset>
 
     <div class="form-group">
       <label for="research-area">Research Area of Interest *</label>
@@ -51,14 +51,14 @@ include '../includes/header.php';
       </select>
     </div>
 
-    <div class="form-group">
-      <label for="days">Days Available *</label>
+    <fieldset class="form-group">
+      <legend>Days Available *</legend>
       <label class="checkbox-label"><input type="checkbox" id="day-mon" name="days[]" value="Monday"> Monday</label>
       <label class="checkbox-label"><input type="checkbox" id="day-tue" name="days[]" value="Tuesday"> Tuesday</label>
       <label class="checkbox-label"><input type="checkbox" id="day-wed" name="days[]" value="Wednesday"> Wednesday</label>
       <label class="checkbox-label"><input type="checkbox" id="day-thu" name="days[]" value="Thursday"> Thursday</label>
       <label class="checkbox-label"><input type="checkbox" id="day-fri" name="days[]" value="Friday"> Friday</label>
-    </div>
+    </fieldset>
 
     <div class="form-group">
       <label for="skills">Relevant Skills / Coursework *</label>
