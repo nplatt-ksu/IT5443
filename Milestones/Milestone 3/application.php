@@ -31,13 +31,8 @@ include '../includes/header.php';
       <input type="text" id="phone" name="phone">
     </div>
 
-<<<<<<< HEAD
     <fieldset class="form-group">
       <legend>Class Standing *</legend>
-=======
-    <div class="form-group">
-      <label>Class Standing *</label>
->>>>>>> parent of d76f964 (Update application.php)
       <label class="radio-label"><input type="radio" id="standing-undergrad" name="standing" value="Undergraduate"> Undergraduate</label>
       <label class="radio-label"><input type="radio" id="standing-grad" name="standing" value="Graduate"> Graduate</label>
     </fieldset>
@@ -56,13 +51,8 @@ include '../includes/header.php';
       </select>
     </div>
 
-<<<<<<< HEAD
     <fieldset class="form-group">
       <legend>Days Available *</legend>
-=======
-    <div class="form-group">
-      <label>Days Available *</label>
->>>>>>> parent of d76f964 (Update application.php)
       <label class="checkbox-label"><input type="checkbox" id="day-mon" name="days[]" value="Monday"> Monday</label>
       <label class="checkbox-label"><input type="checkbox" id="day-tue" name="days[]" value="Tuesday"> Tuesday</label>
       <label class="checkbox-label"><input type="checkbox" id="day-wed" name="days[]" value="Wednesday"> Wednesday</label>
