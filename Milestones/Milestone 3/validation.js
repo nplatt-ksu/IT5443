@@ -36,8 +36,8 @@ form.addEventListener('submit', function (event) {
     return;
   }
 
-  if (phone === '') {
-    alert('Please enter your phone number.');
+  if (phone === '' || isNaN(phone) === true) {
+    alert('Please enter your phone number using only numbers.');
     event.preventDefault();
     return;
   }
