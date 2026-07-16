@@ -23,8 +23,8 @@ if ($studentId === '' || strlen($studentId) !== 9) {
   $errors[] = 'Please enter your 9-digit KSU student ID.';
 }
 
-if ($phone === '') {
-  $errors[] = 'Please enter your phone number.';
+if ($phone === '' || ctype_digit($phone) === false) {
+  $errors[] = 'Please enter your phone number using only numbers.';
 }
 
 if ($standing !== 'Undergraduate' && $standing !== 'Graduate') {
