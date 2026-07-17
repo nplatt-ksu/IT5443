@@ -310,13 +310,3 @@ fieldset.form-group {
   padding: 0;
   font-size: 15px;
 }
-
-label.checkbox-label,
-label.radio-label {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 10px;
-  font-size: 15px;
-  font-weight: normal;
-}
