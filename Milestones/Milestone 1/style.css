@@ -258,7 +258,9 @@ footer a {
 }
 
 .continue-btn {
+  font-size: 20px;
   font-weight: bold;
+  color: black;
 }
 
 #evaluate-btn {
