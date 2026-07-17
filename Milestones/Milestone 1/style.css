@@ -257,6 +257,10 @@ footer a {
   padding: 6px;
 }
 
+.continue-btn {
+  font-weight: bold;
+}
+
 #evaluate-btn {
   display: block;
   margin: 20px auto 0 auto;
