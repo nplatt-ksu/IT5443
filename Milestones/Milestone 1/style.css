@@ -218,13 +218,23 @@ footer a {
   margin-bottom: 5px;
 }
 
-.form-group input,
+.form-group input:not([type="checkbox"]):not([type="radio"]),
 .form-group select {
   width: 100%;
   padding: 8px;
   font-size: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+label.checkbox-label,
+label.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 .course-section {
