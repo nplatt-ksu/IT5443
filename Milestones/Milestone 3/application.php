@@ -53,13 +53,12 @@ include '../includes/header.php';
 
     <fieldset class="form-group">
       <legend>Days Available *</legend>
-      <label class="checkbox-label">Monday <input type="checkbox" id="day-mon" name="days[]" value="Monday"></label>
-      <label class="checkbox-label">Tuesday <input type="checkbox" id="day-tue" name="days[]" value="Tuesday"></label>
-      <label class="checkbox-label">Wednesday <input type="checkbox" id="day-wed" name="days[]" value="Wednesday"></label>
-      <label class="checkbox-label">Thursday <input type="checkbox" id="day-thu" name="days[]" value="Thursday"></label>
-      <label class="checkbox-label">Friday <input type="checkbox" id="day-fri" name="days[]" value="Friday"></label>
+      <label class="checkbox-label"><input type="checkbox" id="day-mon" name="days[]" value="Monday"> Monday</label>
+      <label class="checkbox-label"><input type="checkbox" id="day-tue" name="days[]" value="Tuesday"> Tuesday</label>
+      <label class="checkbox-label"><input type="checkbox" id="day-wed" name="days[]" value="Wednesday"> Wednesday</label>
+      <label class="checkbox-label"><input type="checkbox" id="day-thu" name="days[]" value="Thursday"> Thursday</label>
+      <label class="checkbox-label"><input type="checkbox" id="day-fri" name="days[]" value="Friday"> Friday</label>
     </fieldset>
-
 
     <div class="form-group">
       <label for="skills">Relevant Skills / Coursework *</label>
